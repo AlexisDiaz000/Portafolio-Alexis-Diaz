@@ -5,6 +5,9 @@ on:
     branches:
       - master  # Cambiado de main a master
 
+permissions:
+  contents: write
+
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
@@ -16,10 +19,12 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: '18'
+          cache: 'npm'
+          cache-dependency-path: './project/package-lock.json'
 
       - name: Install Dependencies
         working-directory: ./project
-        run: npm install
+        run: npm ci
 
       - name: Build
         working-directory: ./project
@@ -30,3 +35,4 @@ jobs:
         with:
           folder: project/dist
           branch: gh-pages
+          clean: true
