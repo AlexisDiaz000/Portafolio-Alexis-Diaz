@@ -9,15 +9,15 @@ const Projects = () => {
       image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80',
       technologies: ['HTML', 'CSS', 'JavaScript'],
       github: 'https://github.com/AlexisDiaz000/Mis-logos.git',
-      demo: 'alexisdiaz000.github.io/Mis-logos/'
+      demo: 'https://alexisdiaz000.github.io/Mis-logos/'
     },
     {
       title: 'Proyecto 2',
-      description: 'Plataforma de comercio electrónico con pasarela de pagos',
-      image: 'https://images.unsplash.com/photo-1557821552-17105176677c?auto=format&fit=crop&q=80',
-      technologies: ['Next.js', 'Stripe', 'PostgreSQL'],
-      github: 'https://github.com',
-      demo: 'https://demo.com'
+      description: 'Una página que consulta la API de OpenWeather y muestra el clima actual en las diferentes cuidades del mundos',
+      image: 'https://images.unsplash.com/photo-1605727216801-e27ce1d0cc28?auto=format&fit=crop&q=80',
+      technologies: ['HTML', 'CSS', 'JavaScript', 'API'],
+      github: 'https://github.com/AlexisDiaz000/Aplicacion-del-clima.git',
+      demo: 'https://climaapalexisdiaz.netlify.app/'
     },
     {
       title: 'Proyecto 3',
@@ -25,7 +25,7 @@ const Projects = () => {
       image: 'https://images.unsplash.com/photo-1512486130939-2c4f79935e4f?auto=format&fit=crop&q=80',
       technologies: ['HTML','CSS','JavaScript','Firebase'],
       github: 'https://github.com/AlexisDiaz000/Gestor-de-tareas.git',
-      demo: 'https://demo.com'
+      demo: 'https://alexisdiaz000.github.io/Gestor-de-tareas/'
     }
   ];
 
